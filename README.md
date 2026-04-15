@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Powered Multi-Domain Dashboard
 
-## Getting Started
+A simple **Next.js dashboard app** with multiple sections like Finance, Weather, Health, News, and an AI Chatbot.
+Supports **drag & drop, resizable widgets** and works on both **mobile and desktop**.
 
-First, run the development server:
+---
+
+## Setup
+
+1. Clone project
+
+```bash
+git clone <repo-url>
+cd project
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. .env file is already provided within code
+
+4. Run project
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## What I Implemented
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Dashboard Features
+* Drag & drop widgets
+* Resizable layout
+* Layout saved in localStorage
+* Responsive (mobile + desktop)
 
-## Learn More
+### Finance
+* Static/mock data used
+* Designed UI with charts and portfolio view
 
-To learn more about Next.js, take a look at the following resources:
+### Weather
+* Fully dynamic data
+* Shows temperature, humidity, sunrise/sunset, etc
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Health
+* Mock data (steps, sleep, calories)
+* AI gives suggestions based on data
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### News
+* Fully dynamic news data
+* Clean and readable UI
 
-## Deploy on Vercel
+### AI Chatbot
+* Fully working chatbot
+* Uses **openai/gpt-oss-120b:free model**
+* Gives short and helpful responses
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Notes
+* Some data is mock for demo purpose
+* Free AI model has daily limit
