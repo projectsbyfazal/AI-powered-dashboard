@@ -52,6 +52,7 @@ export async function POST(req) {
     return Response.json({ reply: "Something went wrong" }, { status: 500 });
   }
 }
+ 
 
 // Please uncomment below if open ai is not working
 
